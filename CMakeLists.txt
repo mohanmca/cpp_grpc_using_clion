@@ -9,9 +9,9 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(PROTOBUF REQUIRED protobuf)
 pkg_check_modules(GRPC REQUIRED grpc++)
 
-# Get protoc and grpc_cpp_plugin
-find_program(PROTOC protoc)
-find_program(GRPC_CPP_PLUGIN grpc_cpp_plugin)
+
+include_directories(${Protobuf_INCLUDE_DIRS})
+include_directories(${gRPC_INCLUDE_DIRS})
 
 if(NOT PROTOC)
     message(FATAL_ERROR "protoc not found")
