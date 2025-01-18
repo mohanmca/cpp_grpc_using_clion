@@ -1,0 +1,25 @@
+# Ignore build directories
+/build/
+/cmake-build-*/
+
+# Ignore CLion specific files
+.idea/
+*.iml
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore executables and object files
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore log files
+*.log
