@@ -2,7 +2,7 @@
 #include <memory>
 #include <string>
 #include <grpcpp/grpcpp.h>
-#include "hello_world.grpc.pb.h"
+#include "helloworld.grpc.pb.h"
 
 using grpc::Channel;
 using grpc::ClientContext;

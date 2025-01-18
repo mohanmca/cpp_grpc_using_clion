@@ -1,6 +1,5 @@
 #include <iostream>
 #include <unistd.h>
-#include <cstring>
 #include <sys/utsname.h>
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

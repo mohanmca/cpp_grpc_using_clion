@@ -78,3 +78,6 @@ target_link_libraries(greeter_client
         PRIVATE
         helloworld_grpc_proto
 )
+
+# Server executable
+add_executable(hello_world main.cpp)
