@@ -81,3 +81,5 @@ target_link_libraries(greeter_client
 
 # Server executable
 add_executable(hello_world main.cpp)
+
+add_executable(mohan_std_library_experiments stdmain.cpp)
